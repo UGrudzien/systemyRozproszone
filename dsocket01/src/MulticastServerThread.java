@@ -44,7 +44,7 @@ public class MulticastServerThread extends QuoteServerThread {
 	public void run() {
 		while (moreQuotes) {
 			try {
-				byte[] buf = new byte[256];
+				byte[] buf = "Urszula Grudzien".getBytes();
 
 				// construct quote
 				String dString = null;
